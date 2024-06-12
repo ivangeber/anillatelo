@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Anillatelo</title> 
+    <link rel="stylesheet" href="styles2.css"> 
+</head> 
+<body> 
+    
+    <header style="display: flex; align-items: center;"> 
+        <div style="margin-right: auto;">
+            <img src="2.png" width="150" height="150">
+        </div>
+        <div class="logo" style="margin: 0 auto; margin-left: -5%;"> 
+            Anillatelo.com
+            <nav> 
+                <ul> 
+                    <li><a href="index.html">Inicio</a></li> 
+                    <li><a href="#products">Productos</a></li> 
+                    <li><a href="#contact">Otros</a></li> 
+                </ul> 
+            </nav> 
+        </div> 
+    </header>
+ 
+    <section id="home"> 
+        <h1>Te podemos dar nuestros anillos a el mejor precio</h1> 
+    </section> 
+    <section id="products">  
+        <div class="product"> 
+            <img src="1 (1).jpeg" alt="Anillo De Campeonato De Los Angeles Lakers 2009"> 
+            <p></p> 
+        </div>
+    
+
+        <div class="product"> 
+            <h3>Anillos De Puebla Campeon</h3> 
+            <p>$250</p> 
+            <p></p> 
+           <button onclick="window.modal.showModal();">Comprar</button>
+
+            <dialog id="modal">
+                <h1>Anillo Comprado</h1>
+                <p>Espere que llegue su pedido a domicilio algun dia<br>
+                    ya que aun no contamos con repartidores porque no<br>
+                    tenemos mas presupuesto por lo que algun dia llegara<br>
+                    su pedido, como vamos a ir nosotros hasta su casa<br>
+                    el cobro extra por envio es de $500, ($300 pa la gasolina<br>
+                    y los $200 restantes para botanas en el oxxo)
+                </p>
+                <button onclick="window.modal.close();">Cerrar</button>
+            </dialog>
+
+        </div>
+    </section> 
+ 
+    <footer> 
+        <p>© Anillatelo 2024</p> 
+    </footer> 
+</body> 
+</html> 
